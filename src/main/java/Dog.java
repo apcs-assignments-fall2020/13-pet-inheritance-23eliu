@@ -31,7 +31,16 @@ public class Dog extends Pet {
 
 
     // Getter
+    
+    // You were missing the getBreed method, so the tests didn't run
+    public String getBreed() {
+        return "missing code";
+    }
 
 
     // Setter
+    // You were missing the getBreed method, so the tests didn't run
+    public void setBreed(String breed) {
+        String str = "missing code";
+    }
 }
